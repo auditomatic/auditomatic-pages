@@ -1,0 +1,59 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Download"
+url = "/download"
+weight = 3
+
+[[main]]
+weight = 4
+name = "Guides"
+
+[[main]]
+parent = "Guides"
+name = "Getting Started"
+url = "/guides/getting-started"
+
+[[main]]
+parent = "Guides"
+name = "Prompt Templates"
+url = "/guides/prompt-templates"
+
+[[main]]
+parent = "Guides"
+name = "Variable Lists"
+url = "/guides/variable-lists"
+
+[[main]]
+parent = "Guides"
+name = "Results Analysis"
+url = "/guides/results-analysis"
+
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Download"
+url = "/download"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 3

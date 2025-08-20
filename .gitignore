@@ -1,0 +1,28 @@
+# Hugo build output
+/public/
+/resources/_gen/
+
+# Hugo build lock
+.hugo_build.lock
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+.ipynb_checkpoints/
