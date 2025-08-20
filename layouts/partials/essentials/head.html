@@ -1,0 +1,20 @@
+<meta charset="utf-8" />
+
+<!-- robots meta -->
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+
+<!-- responsive meta -->
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+<!-- theme meta -->
+<meta name="theme-name" content="hugoplate" />
+
+{{ partial "components/seo.html" . }}
+{{ partial "components/social.html" . }}
+
+<!-- theme style -->
+{{ partialCached "components/styles.html" . }}
+{{ partialCached "components/script.html" . }}

@@ -66,6 +66,7 @@ keywords = ["LLM", "evaluation", "testing", "AI", "bias", "prompt engineering", 
 description = "Auditomatic Lite - Browser-based tool for systematic LLM evaluation and testing"
 author = "Auditomatic Contributors"
 image = "images/og-image.png"
+robots = "noindex, nofollow"
 
 
 # site verifications
