@@ -5,6 +5,9 @@
 # Hugo build lock
 .hugo_build.lock
 
+# Hugo binary
+hugo
+
 # Node modules
 node_modules/
 
