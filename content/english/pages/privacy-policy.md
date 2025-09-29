@@ -7,13 +7,19 @@ draft: false
 
 ## Overview
 
-Auditomatic is committed to protecting your privacy. This privacy policy explains what information we collect when you visit our website.
+Auditomatic is committed to protecting your privacy. This privacy policy covers:
+
+- **auditomatic.org** (this documentation website)
+- **lite.auditomatic.org** (the web application)
+- **Auditomatic Desktop App** (downloadable application)
+
+All three properties follow the same privacy practices and collect the same minimal, anonymous analytics data.
 
 ## Data Collection
 
 ### Web Analytics
 
-When you load the app, we send one counter to a third-party server to track usage. We use [GoatCounter](https://www.goatcounter.com/) for anonymous web analytics. GoatCounter collects only aggregate, non-personal data to help us understand how visitors use our site.
+When you visit auditomatic.org, lite.auditomatic.org, or launch the desktop app, we send one anonymous counter to a third-party server to track usage. We use [GoatCounter](https://www.goatcounter.com/) for anonymous web analytics. GoatCounter collects only aggregate, non-personal data to help us understand how people use Auditomatic.
 
 **What GoatCounter collects:**
 - Operating system (e.g., Windows, macOS, Linux)
@@ -35,16 +41,22 @@ GoatCounter stores only computed aggregate data (e.g., "40 people used Firefox t
 
 We do not use cookies that require consent under GDPR. GoatCounter operates without persistent user identifiers or cross-site tracking.
 
-## The Auditomatic Application
+## The Auditomatic Applications
 
-The Auditomatic application runs entirely in your browser. It does not collect, transmit, or store any of your data on our servers. All data processing happens locally on your device.
+Both the web application (lite.auditomatic.org) and desktop application run entirely on your device. They do not collect, transmit, or store any of your data on our servers. All data processing happens locally:
+
+- **Your LLM API keys** remain on your device
+- **Your evaluation data** stays on your device
+- **Your prompts and results** are never sent to our servers
+
+The only data sent from any Auditomatic property is the single anonymous GoatCounter analytics ping described above.
 
 ## Data Usage
 
 The aggregate analytics data helps us:
-- How many people are using the app in various countries, with various systems
+- Understand how many people are using Auditomatic across different countries and systems
 - Identify technical issues (e.g., browser compatibility)
-- Improve the website experience
+- Improve the website and application experience
 
 ## Legal Basis
 
