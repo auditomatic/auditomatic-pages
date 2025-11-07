@@ -11,7 +11,9 @@ draft: false
 
 **[Download from GitHub Releases →](https://github.com/auditomatic/lite-app/releases)**
 
-Complete privacy - all data stays on your machine.
+Choose the version for your operating system from the GitHub releases page.
+
+The desktop app and web version have identical features, but the desktop app runs in an isolated browser, which makes it more efficient and secure if your browser is hacked. 
 
 **System Requirements:** Windows 7+, macOS 10.15+ (Catalina), or Ubuntu 18.04+
 
