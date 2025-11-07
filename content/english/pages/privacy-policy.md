@@ -7,7 +7,7 @@ draft: false
 
 ## Overview
 
-Auditomatic is committed to protecting your privacy. This privacy policy covers:
+Auditomatic is committed to protecting your privacy and is designed as a local-first in-browser or standalone desktop app to this end. This privacy policy covers:
 
 - **auditomatic.org** (this documentation website)
 - **lite.auditomatic.org** (the web application)
@@ -34,26 +34,27 @@ When you visit auditomatic.org, lite.auditomatic.org, or launch the desktop app,
 - Cookies requiring consent
 - Precise location data
 - Browsing history across sites
+- Your templates, prompts, or API responses
 
-GoatCounter stores only computed aggregate data (e.g., "40 people used Firefox today") rather than individual pageviews. It is designed to make it impossible to identify any specific person, even with full database access.
+GoatCounter stores only computed aggregate data (e.g., "40 people used the web app in the U.S. with Firefox on Windows today") rather than individual pageviews. It is designed to make it impossible to identify any specific person, even with full database access.
 
 ### No Tracking or Cookies
 
-We do not use cookies that require consent under GDPR. GoatCounter operates without persistent user identifiers or cross-site tracking.
+We do not use cookies that require consent under GDPR. GoatCounter operates without sending persistent user identifiers to the auditomatic.org servers or cross-site tracking.
 
 ## The Auditomatic Applications
 
-Both the web application (lite.auditomatic.org) and desktop application run entirely on your device. They do not collect, transmit, or store any of your data on our servers. All data processing happens locally:
+Both the web application (lite.auditomatic.org) and desktop application run entirely on your device. Except for the GoatCounter telemetry, the app does not collect, transmit, or store any of your data to our servers. However, the apps let you send API requests to external LLM providers like OpenAI, Anthropic, or OpenRouter, which have their own privacy policies and may retain or train on your data. Except for GoatCounter and sending API requests to these providers, all other data processing happens locally in the app:
 
 - **Your LLM API keys** remain on your device
 - **Your evaluation data** stays on your device
-- **Your prompts and results** are never sent to our servers
+- **Your prompts and results from LLM API providers** are never sent to our auditomatic.org servers
 
-The only data sent from any Auditomatic property is the single anonymous GoatCounter analytics ping described above.
+If your browser or operating system is hacked or otherwise compromised, then an attacker could gain access to the locally-stored data. The desktop version is more secure from browser-based attacks.  
 
 ## Data Usage
 
-The aggregate analytics data helps us:
+The aggregate analytics data via GoatCounter helps us:
 - Understand how many people are using Auditomatic across different countries and systems
 - Identify technical issues (e.g., browser compatibility)
 - Improve the website and application experience
@@ -76,4 +77,4 @@ If you have questions about this privacy policy, please contact us through our [
 
 ---
 
-*Last updated: September 29, 2025*
+*Last updated: November 7th, 2025*
